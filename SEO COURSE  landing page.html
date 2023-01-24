@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mastering YouTube SEO: The Ultimate Guide</title>
+  <style>
+    /* CSS for styling the landing page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+    }
+    .header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .section {
+      padding: 50px;
+      text-align: center;
+    }
+    .section h2 {
+      margin-bottom: 20px;
+    }
+    .section p {
+      margin-bottom: 30px;
+    }
+    .cta {
+      background-color: #333;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .cta:hover {
+      background-color: #555;
+    }
+    /* Add styling for the testimonials section */
+    .testimonials {
+      background-color: #f8f8f8;
+      padding: 50px;
+      text-align: center;
+    }
+    .testimonial {
+      margin-bottom: 30px;
+    }
+    .testimonial img {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+    .testimonial p {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Mastering YouTube SEO: The Ultimate Guide</h1>
+  </div>
+  <div class="section">
+    <h2>Learn how to optimize your YouTube videos for better visibility and engagement</h2>
+    <p>With this course, you will get access to:</p>
+    <ul>
+      <li>eBooks on YouTube SEO best practices and strategies</li>
+      <li>A comprehensive video guide on how to optimize your videos for YouTube</li>
+    </ul>
+    <a href="#" class="cta">Enroll Now</a>
+  </div>
+  <div class="testimonials">
+    <h2>What our students are saying</h2>
+    <div class="testimonial">
+      <img src="student1.jpg" alt="Student 1">
+      <p>"This course was a game changer for me. I was able to increase my views and engagement on my videos thanks to the strategies and tips taught in this course."</p>
+    </div>
+    <div class="testimonial">
+      <img src="student2.jpg" alt="Student 2">
+      <p>"I highly recommend this course to anyone looking to improve their YouTube SEO. The video guide was especially helpful in understanding the concepts and applying them to my own channel. I saw a significant increase in my search rankings and organic traffic within just a few weeks of implementing what I learned."</p>
+</div>
+<div class="testimonial">
+<img src="student3.jpg" alt="Student 3">
+<p>"The eBooks provided in this course are a valuable resource that I refer back to regularly. The information is clear and easy to understand, and the examples used throughout the course make it easy to apply the concepts to my own videos."</p>
+</div>
+
+  </div>
+  <div class="section">
+    <h2>Don't miss out on this opportunity to take your YouTube SEO to the next level</h2>
+    <a href="#" class="cta">Enroll Now</a>
+  </div>
+  <script>
+    // Add JavaScript to make the CTA more compelling
+    var cta = document.querySelector(".cta");
+    var originalText = cta.innerHTML;
+    var count = 10;
+    cta.addEventListener("mouseover", function() {
+      cta.innerHTML = "Enroll Now (" + count + ")";
+      count--;
+      if (count === 0) {
+        cta.innerHTML = "Last chance to enroll!";
+        cta.style.backgroundColor = "red";
+      }
+    });
+    cta.addEventListener("mouseout", function() {
+      cta.innerHTML = originalText;
+      cta.style.backgroundColor = "#333";
+    });
+  </script>
+</body>
+</html>
